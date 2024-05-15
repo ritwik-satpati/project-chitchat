@@ -1,0 +1,62 @@
+const conversation = {
+  _id: "662d229d79c9c6ae6c7488be",
+  participants: [
+    {
+      _id: "662c39bd1e28d1a329f0eee7",
+      fullName: "Ritwik",
+      mobileNumber: "+917364948801",
+      gender: "Male",
+      avatar: "https://avatar.iran.liara.run/public/36",
+      createdAt: "2024-04-26T23:33:17.190Z",
+      updatedAt: "2024-04-26T23:33:17.190Z",
+      __v: 0,
+    },
+    {
+      _id: "662c39ea1e28d1a329f0eeeb",
+      fullName: "Sabuj",
+      mobileNumber: "+918583924951",
+      gender: "Male",
+      avatar: "https://avatar.iran.liara.run/public/37",
+      createdAt: "2024-04-26T23:34:02.660Z",
+      updatedAt: "2024-04-26T23:34:02.660Z",
+      __v: 0,
+    },
+  ],
+  messages: [
+    {
+      _id: "662d229d79c9c6ae6c7488c0",
+      conversationId: "662d229d79c9c6ae6c7488be",
+      senderId: "662c39bd1e28d1a329f0eee7",
+      receiverId: "662c39ea1e28d1a329f0eeeb",
+      message: "Hei, I am Ritwik!",
+      createdAt: "2024-04-27T16:06:53.115Z",
+      updatedAt: "2024-04-27T16:06:53.115Z",
+      __v: 0,
+    },
+    {
+      _id: "662d22e679c9c6ae6c7488c7",
+      conversationId: "662d229d79c9c6ae6c7488be",
+      senderId: "662c39ea1e28d1a329f0eeeb",
+      receiverId: "662c39bd1e28d1a329f0eee7",
+      message: "Hello, Sabuj here!",
+      createdAt: "2024-04-27T16:08:06.228Z",
+      updatedAt: "2024-04-27T16:08:06.228Z",
+      __v: 0,
+    },
+    {
+      _id: "662d230979c9c6ae6c7488ce",
+      conversationId: "662d229d79c9c6ae6c7488be",
+      senderId: "662c39bd1e28d1a329f0eee7",
+      receiverId: "662c39ea1e28d1a329f0eeeb",
+      message: "Ki boss sob bhalo to ?",
+      createdAt: "2024-04-27T16:08:41.917Z",
+      updatedAt: "2024-04-27T16:08:41.917Z",
+      __v: 0,
+    },
+  ],
+  createdAt: "2024-04-27T16:06:53.024Z",
+  updatedAt: "2024-04-27T16:08:41.971Z",
+  __v: 3,
+};
+
+export default conversation;
